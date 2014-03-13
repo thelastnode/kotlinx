@@ -1,32 +1,41 @@
 Kotlin-X
 ========
 
-Kotlinx is set of libraries that are are often needed in various applications, but not required for every project.
+Kotlin-X is a set of libraries written in [Kotlin](http://kotlinlang.org) that represent functionality that is cross-cutting against many vertical domains. That is, functionality that can be used independently of the business domain. Functinality such as HTTP, Logging, JSON, et al. many times aligned with infrastructura concerns. 
 
-We defined the following rules for libraries here:
+Why Kotlin-X?
+=============
 
-* Library shouldn't be bound to any business domain. Instead it should apply to specific technology domain.
-* Library should have a high chance to cover most cases for particular domain, so that existence of a lot of different
-  libraries for same topic is unlikely.
-* Library should provide significant benefit to users for being written in Kotlin, by providing better APIs and
-  integrating with language features.
-* Library should be well documented and well tested.
+Kotlin is 100% Compatible with the JVM, which means you can use any existing Java Library in Kotlin applications and vica-versa, i.e. Kotlin libraries can be consumed by Java. The reason for Kotlin-X is that Kotlin provides a more succint and concise language allowing for more fluid and describable API's that can be used with little ceremoy. Kotlin-X is an aim to provide some of these functionalities. In fact, often Kotlin-X libraries might be nothing more than simple wrappers over existing JVM ones. 
 
-This Project
-============
+What classifies as a Kotlin-X library?
+======================================
 
-This project doesn't contain source code, but is a place for common kotlinx documentation, list of libraries,
-and handling meta-requests, like adding particular library under kotlinx umbrella, or requests to develop library
-for the topic.
+A series of guidelines are used to define what constitutes a good candidate to be hosted under the Kotlin-X project
 
-Repositories
-============
+A Library should: 
+
+* Should be OSS
+* Should provide value over existing libraries available on the JVM. This can be both in terms of functionality and API simplicity (taking advantage of Koltin's language features).
+* Should be cross-cutting concern.
+* Should be well documented and have automated testss (unit or integration)
+* Should not be bound to any business domain. 
+* Should have a continuous integration project in place
+ 
+
+What is this project?
+=====================
+
+This project is a placeholder for the README you're currently reading. It does not contain any source code. It is the organizational structure for Kotlin-X projects.
+
+Current Libraries
+=================
 
 * [kotlinx.html](https://github.com/kotlinx/kotlinx.html) -- html building libirary
 * [kotlinx.css](https://github.com/kotlinx/kotlinx.css) -- css building library
 
-Candidates
-===========
+Potential Candidates
+====================
 
 * kotlinx.http
 * kotlinx.logging

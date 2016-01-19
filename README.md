@@ -1,7 +1,7 @@
 Kotlin-X
 ========
 
-Kotlin-X is a set of libraries written in [Kotlin](http://kotlinlang.org) that represent functionality that is cross-cutting against many vertical domains. That is, functionality that can be used independently of the business domain. Functinality such as HTTP, Logging, JSON, et al. many times aligned with infrastructura concerns. 
+Kotlin-X is a set of libraries written in [Kotlin](http://kotlinlang.org) that represent functionality that is cross-cutting against many vertical domains. That is, functionality that can be used independently of the business domain. Functionality such as HTTP, Logging, JSON, et al. many times aligned with infrastructura concerns. 
 
 Why Kotlin-X?
 =============

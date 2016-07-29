@@ -6,7 +6,7 @@ Kotlin-X is a set of libraries written in [Kotlin](http://kotlinlang.org) that r
 Why Kotlin-X?
 =============
 
-Kotlin is 100% Compatible with the JVM, which means you can use any existing Java Library in Kotlin applications and vica-versa, i.e. Kotlin libraries can be consumed by Java. The reason for Kotlin-X is that Kotlin provides a more succint and concise language allowing for more fluid and describable API's that can be used with little ceremoy. Kotlin-X is an aim to provide some of these functionalities. In fact, often Kotlin-X libraries might be nothing more than simple wrappers over existing JVM ones. 
+Kotlin is 100% Compatible with the JVM, which means you can use any existing Java Library in Kotlin applications and vica-versa, i.e. Kotlin libraries can be consumed by Java. The reason for Kotlin-X is that Kotlin provides a more succinct and concise language allowing for more fluid and describable API's that can be used with little ceremony. Kotlin-X is an aim to provide some of these functionalities. In fact, often Kotlin-X libraries might be nothing more than simple wrappers over existing JVM ones. 
 
 What classifies as a Kotlin-X library?
 ======================================
